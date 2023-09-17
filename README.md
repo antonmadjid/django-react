@@ -5,7 +5,12 @@ This boilerplate uses can be applied as a single page application and server sid
 In development mode, run Python manage.py runserver from the webpack-django directory.
 Then enter the frontend directory and do the npm run start command.
 for production mode don't forget to edit file core->setting.py debug=False
-Production mode can only be run with WSGI
+
+Production mode can only be run with WSGI.
+
+To login to Django Admin: 
+- 127.0.0.1/admin
+- User name: admin password: P@ssw0rd
 
 
 
