@@ -1,3 +1,0 @@
-react directory
-
-  // "webpack": "^5.88.2"
