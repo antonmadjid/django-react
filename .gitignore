@@ -22,4 +22,6 @@ rad.json
 TestResults.xml
 venv/
 webpack-django/frontend/node_modules/*
+webpack-django/build/*
+webpack-django/staticfiles/*
 __pycache__/
