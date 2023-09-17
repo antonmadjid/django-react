@@ -1,3 +1,8 @@
 from django.shortcuts import render
+from django.http import JsonResponse
+from django.views.generic import View
 
-# Create your views here.
+
+class MainApp(View):
+    def get(self, request):
+        return JsonResponse("hello main app", safe=False)
