@@ -5,4 +5,4 @@ from django.views.generic import View
 
 class MainApp(View):
     def get(self, request):
-        return JsonResponse("hello main app", safe=False)
+        return render(request, template_name="dashboard/index.html")
